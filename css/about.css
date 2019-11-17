@@ -1,0 +1,70 @@
+html, body, #container {
+    height: 100%
+}
+#container {
+    width: 100%;
+    overflow: hidden
+}
+
+#head {
+    position: relative;
+    width: 100%;
+}
+
+#head-bg {
+    background: #585A56;
+    float: right;
+    width: 33%;
+    height: 1800px;
+}
+
+#main {
+    height: 86%;
+    width: 80%;
+    position: fixed;
+    top:7%;
+    left:10%;
+    overflow: hidden;
+    background: #c2d3da;
+}
+
+#left {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 2.6% 0 0 6.5%;
+    box-sizing: border-box;
+}
+
+#time {
+    display: flex;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.mr-100p {
+    margin-right: 15%;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#main img {
+    width: 100%;
+    display: block;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#main img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+#self-introduce {
+    width: 95%;
+    margin-top: 80px;
+}

@@ -1,0 +1,105 @@
+html, body, #content2 {
+    height: 100%
+}
+
+#left, #right {
+    width: 49.8%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#left {
+    background: #c2d3da;
+}
+
+#scroll-bar {
+    width: 18px;
+    height: 66%;
+    background: #fff;
+    margin: 20% 0 0 8%;
+    border-radius: 13px;
+}
+
+#sub-scroll-bar {
+    height: 30%;
+    width: 100%;
+    background: #81a3a7;
+    border-radius: 13px;
+}
+
+#content {
+    width: 60%;
+    height: 60%;
+    margin: 10% 0 0 2%;
+    background: #fff;
+    padding: 10%;
+    position: relative;
+}
+
+#content1 img {
+    width: 66%;
+    margin-top: 10%;
+    display: block;
+}
+
+#content2 {
+    color: #585A56;
+    display: none;
+}
+
+#content2 div:first-child {
+    width: 100%;
+    height: 43%;
+    overflow: hidden;
+}
+
+#content2 img {
+    width: 100%;
+    margin-top: -24%;
+}
+
+#content2 p:nth-child(2) {
+    margin-top: 20%;
+}
+
+#content2 p:nth-child(3) {
+    margin-top: 20px;
+    box-shadow: 0 3px
+}
+#content2 p span {
+    box-shadow: 0 3px 0 0 #c2d3da;
+}
+
+#touch {
+    line-height: 28%;
+    padding: 4%;
+    width: fit-content;
+    border-radius: 20px;
+    border: 2px solid #000;
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#touch img {
+    width: 30px;
+    transform: translateY(6px);
+}
+
+#return {
+    position: absolute;
+    left: 1px;
+    bottom: 1px;
+    width: 90px;
+}
+
+#toggle {
+    width: 1px;
+    margin: 50% 0 0 -7%;
+    transform: translateY(-50%);
+
+}
+
+#poster {
+    width: 100%;
+    transform: translateY(-8.5%);
+}

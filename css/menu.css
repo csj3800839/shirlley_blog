@@ -1,0 +1,77 @@
+html, body, #left, #right{
+    height: 100%
+}
+
+#left {
+    width: 33%;
+}
+
+#avatar {
+    margin: 20% 0 0 20%;
+    width: 50%;
+    height: 0;
+    overflow: hidden;
+    display: inline-block;
+    padding-bottom: 50%;
+    border-radius: 50%;
+}
+
+#avatar img {
+    width: 100%;
+}
+
+#left p:nth-child(2) {
+    margin-left: 10%;
+}
+
+#left p:nth-child(3) {
+    margin-left: 30%;
+}
+
+#left p:nth-child(4) {
+    margin-left: 30%;
+}
+
+#right {
+    width: 66.8%;
+    background: #585A56;
+}
+
+a {
+    color: #fff;
+}
+
+.item {
+    height: 128px;
+    margin-top: 6%;
+}
+
+.bar {
+    height: 16px;
+    width: 18%;
+    background: #fff;
+    margin-top: 42px;
+    transition: width 0.25s;
+}
+
+#right img {
+    margin-left: -35px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100px;
+}
+
+.text {
+    transform: translateY(18px);
+    display: inline-block;
+}
+
+#work {
+    margin-top: 11%;
+}
+
+#right div:hover .bar{
+    width: 43%;
+    transition: width 0.25s;
+}
+

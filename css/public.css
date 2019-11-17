@@ -1,0 +1,156 @@
+@media screen and (max-width: 1920px) {
+    html {
+        font-size: 16px;
+    }
+    .fs-140 {
+        font-size: 140px;
+        line-height: 140px;
+    }
+
+    .fs-4r {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    html {
+        font-size: 13px;
+    }
+    .fs-140 {
+        font-size: 113.75px;
+        line-height: 113.75px;
+    }
+
+    .fs-4r {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    html {
+        font-size: 10px;
+    }
+    .fs-140 {
+        font-size: 87.5px;
+        line-height: 87.5px;
+    }
+
+    .fs-4r {
+        font-size: 2.5rem;
+    }
+}
+
+body {
+    margin: 0;
+}
+.impact {
+    font-family:Impact;
+}
+
+.mid {
+    margin: 0 auto;
+}
+
+.fs-3-5r {
+    font-size: 3.5rem;
+}
+
+.fs-2r {
+    font-size: 2rem;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.tc {
+    text-align: center;
+}
+
+.light-green {
+    color: #c2d3da;
+}
+
+.dark-green {
+    color: #81a3a7;
+}
+
+.no_colorful {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+p {
+    margin: 0;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-12p {
+    margin-top: 12%;
+}
+
+.under-line {
+    text-decoration: none;
+    box-shadow: 0 1px;
+    width: fit-content;
+}
+
+.fl {
+    float: left;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+#name {
+    position: fixed;
+    left: 1%;
+    top: 1%;
+    font-family:Impact;
+    font-size: 30px;
+}
+
+.pl {
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+#share {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    z-index: 2;
+}
+#menu {
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+#menu div{
+    height: 5px;
+    background: #dbdbdb;
+    margin-top: 10px;
+}
+
+#menu div:nth-child(1),#menu div:nth-child(3) {
+    width: 50px;
+}
+
+#menu div:nth-child(2) {
+    width: 42px;
+}
+
+#share img {
+    width: 25px;
+    float: right;
+    margin-top: 20px;
+}
